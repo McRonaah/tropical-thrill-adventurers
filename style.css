@@ -1,0 +1,131 @@
+header {
+    position: relative;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 54px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 10px 25px;
+    font-size:24px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* styles.css */
+
+.home-page {
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+
+.attractions-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.attraction {
+    text-align: center;
+}
+
+.attraction img {
+    width: 100%;
+    height: 250px;
+}
+
+.must-visit-places,
+.travel-tips {
+    margin-bottom: 30px;
+}
+
+.must-visit-places ol,
+.travel-tips ul {
+    padding-left: 20px;
+}
+
+
+/* styles.css */
+
+#destination {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.other-destinations,
+.travel-packages,
+.additional-info {
+    margin-bottom: 30px;
+}
+
+.travel-packages table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.travel-packages th,
+.travel-packages td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.travel-packages th {
+    background-color: #f2f2f2;
+}
+
+.additional-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.additional-info a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.additional-info a:hover {
+    text-decoration: underline;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
