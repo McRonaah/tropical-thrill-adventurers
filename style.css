@@ -129,3 +129,13 @@ th, td {
     padding: 10px;
     text-align: left;
 }
+
+
+ footer p{
+    align-items: center;
+    text-align: center;
+}
+
+.p-tag{
+    font-size: 97px;
+}
