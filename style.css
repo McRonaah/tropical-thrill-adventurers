@@ -76,6 +76,90 @@ nav ul li a:hover {
     padding-left: 20px;
 }
 
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.must-visit-places,
+.travel-tips {
+    width: 100%;
+}
+
+
+/* Add this to your style.css or within a <style> tag in the head section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.booking-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form h3 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+.label-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.label-row label {
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#confirmationMessage {
+    text-align: center;
+    font-weight: bold;
+}
+
+
 
 /* styles.css */
 
