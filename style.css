@@ -9,13 +9,15 @@ header img {
     display: block;
 }
 
-h2 {
+header h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
     font-size: 54px;
+    font-family: 'redsans-serif';
+    font-style: oblique;
 }
 
 nav {
@@ -47,8 +49,19 @@ nav ul li a:hover {
 /* styles.css */
 
 .home-page {
-    /* max-width: 800px; */
+    padding-left: 8px;
+    padding-right: 8px;
     margin: 0 auto;
+}
+
+.home-page h2{
+    font-size: 24px;
+    font-style: initial;
+}
+
+span{
+    color: #a0ca36;
+    font-style: italic;
 }
 
 .attractions-section {

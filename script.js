@@ -1,7 +1,7 @@
 
     function validateForm() {
         var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        var phoneRegex = /^[0-9]{3}-[0-9]{3}-[0-9]{4}$/;
+        var phoneRegex = /^\+\d{3}\d{9}$/;
 
         var name = document.getElementById('name').value;
         var email = document.getElementById('email').value;
@@ -18,7 +18,7 @@
         }
 
         if (!phoneRegex.test(phone)) {
-            alert('Please enter a valid phone number (e.g., 123-456-7890).');
+            alert('Please enter a valid phone number (e.g., +254702233145).');
             return false;
         }
 

@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h2>Welcome to Exotic Travel Agency</h2>
+        <h1>Tropical Thrill Adventurers</h1>
         <img src="./images/header-image.jpeg" alt="Exotic header image">
     </header>
     <nav>
@@ -22,7 +22,12 @@
     <main>
         <section class="home-page">
             <div class="welcome-message">
-                <p>egfhdhfvnfv,rfehwjkqlkjfhgfkl;lkdjfhjjkwql;wkdjfhjdkwqlld</p>
+                <h2>Escape to Paradise with Tropical Thrill Adventurers: <span>Your Gateway to Unforgettable Maldives Holidays.</span></h2>
+                <p>Welcome to Tropical Thrill Adventurers, where we specialize in curating dream vacations to the enchanting Maldives. 
+                    Immerse yourself in the lap of luxury and natural beauty as our expert team crafts an experience tailored just for you. 
+                    From pristine beaches to vibrant coral reefs, and cultural wonders, we make sure every moment of your Maldives 
+                    holiday is nothing short of extraordinary.
+                </p>
             </div>
     
             <div class="attractions-section">
@@ -46,19 +51,29 @@
             <div class="must-visit-places">
                 <h3>Top 5 Must-Visit Places</h3>
                 <ol>
-                    <li>Place 1</li>
-                    <li>Place 2</li>
-                    <li>Place 3</li>
-                    <li>Place 4</li>
-                    <li>Place 5</li>
+                    <li>Maafushi Island:</li> 
+                    <p>Explore local Maldivian culture in this charming island paradise. Experience the warmth of 
+                        the community, indulge in traditional cuisine, and soak up the tranquil island vibes.</p>
+                    <li>Ari Atoll:</li>
+                        <p>Dive into the crystal-clear waters of Ari Atoll, a diver's haven. Witness the 
+                            breathtaking underwater world, teeming with colorful coral formations and diverse marine life.</p>
+                    <li>Malé City:</li>
+                            <p>Discover the heart of Maldives in Malé City. Marvel at the Grand Friday Mosque, explore 
+                                the bustling local markets, and get a glimpse of the vibrant city life.</p>
+                    <li>Thulusdhoo Island:</li>
+                    <p>For surf enthusiasts, Thulusdhoo Island is a must-visit. Experience world-class waves and the 
+                        laid-back atmosphere of this surfing paradise.</p>
+                    <li>Vaadhoo Island:</li>
+                    <p>Indulge in the mesmerizing natural phenomenon known as the "Sea of Stars" on Vaadhoo Island. Witness 
+                        bioluminescent phytoplankton lighting up the beaches at night.</p>
                 </ol>
             </div>
     
             <div class="travel-tips">
                 <h3>Travel Tips</h3>
                 <ul>
-                    <li>Tip 1: Lorem ipsum dolor sit amet.</li>
-                    <li>Tip 2: Consectetur adipiscing elit.</li>
+                    <li>Pack light and bring comfortable clothing suitable for a tropical climate.</li>
+                    <li>Don't forget your sunscreen and reef-safe snorkeling gear.</li>
                     <li>Tip 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
                 </ul>
             </div>
@@ -67,18 +82,19 @@
             <div class="booking-form">
                 <h3>Book Your Trip</h3>
                 <form id="bookingForm" onsubmit="return validateForm()">
-                    <label for="name">Name:</label>
+                    <label for="name">Full Name:</label>
                     <input type="text" id="name" name="name" required>
             
-                    <label for="email">Email:</label>
+                    <label for="email">Your Email Address:</label>
                     <input type="email" id="email" name="email" required>
             
                     <label for="phone">Phone Number:</label>
-                    <input type="text" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
-                        title="Please enter a valid phone number (e.g., 123-456-7890)">
+                    <input type="text" id="phone" name="phone" pattern= "\+\d{3}\d{9}" required
+                        title="Please enter a valid phone number (e.g., +254702233145)">
             
                     <label for="destination">Select Destination:</label>
                     <select id="destination" name="destination" required>
+                        <option value=""></option>
                         <option value="destination1">Destination 1</option>
                         <option value="destination2">Destination 2</option>
                         <option value="destination3">Destination 3</option>
