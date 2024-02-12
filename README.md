@@ -1,23 +1,29 @@
-<h1>Travel Agency Website README</h1>
+<h1>Tropical Thrill Adventurers Website README</h1>
 <h2>Overview</h2>
-<p>kgfghj</p>
-<h2>File Structure</h2>
+<p>Tropical Thrill Adventurers is a repository that contains the code for a fictitious travel agency website, designed to serve as a travel destination guide and booking platform. The website incorporates various HTML elements to enhance user experience and provide essential information about the destination.</p>
+<p>The key deliverables, as specified in the assignment, include:</p>
 <ol>
   <li><h2>Inserting Images:</h2></li>
   <ul>
-    <li>ih</li>
+    <li>A prominent header image at the top of the page representing an exotic travel destination.</li>
+    <li>Three smaller images within the page content showcasing various attractions or activities at the destination.</li>
+    <li>Proper alt attributes have been utilized for all images to ensure accessibility.</li>
   </ul>
-  <li><h2>Inserting Images:</h2></li>
+  <li><h2>Creating Lists:</h2></li>
   <ul>
-    <li>ih</li>
+    <li>An ordered (numbered) list of the top 5 must-visit places or attractions at the travel destination.</li>
+    <li>An unordered (bulleted) list of travel tips or recommendations for visitors, consisting of at least 3 items.</li>
   </ul>
-  <li><h2>Inserting Images:</h2></li>
+  <li><h2>Creating Hyperlinks:</h2></li>
   <ul>
-    <li>ih</li>
+    <li>A navigation menu with links to Home, Destinations, and Contact Us sections.</li>
+    <li>Two hyperlinks within the content linking to external websites providing additional information about the destination.</li>
   </ul>
-  <li><h2>Inserting Images:</h2></li>
+  <li><h2>Creating Tables:</h2></li>
   <ul>
-    <li>ih</li>
+    <li>A table displaying information about available travel packages for the destination.</li>
+    <li>The table includes at least 3 columns (Package Name, Price, Duration) and 3 rows.</li>
+    <li>The table is appropriately styled, including a header row.</li>
   </ul>
   <li><h2>Creating Forms:</h2></li>
   <ul>
