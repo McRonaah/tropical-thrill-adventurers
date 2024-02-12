@@ -79,6 +79,7 @@ span{
     height: 250px;
 }
 
+
 .must-visit-places,
 .travel-tips {
     margin-bottom: 30px;
@@ -176,8 +177,8 @@ button:hover {
 
 /* styles.css */
 
-#destination {
-    max-width: 800px;
+#destination1 {
+    /* max-width: 800px; */
     margin: 0 auto;
 }
 
