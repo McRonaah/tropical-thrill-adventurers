@@ -9,7 +9,7 @@
 <body>
 
 <div class="container">
-    <form action="#" method="post" class="contact-form">
+    <form action="#" method="post" class="contact-form" onsubmit="return redirectToHomePage();">
         <h1>Contact Us</h1>
         <div class="form-group">
             <label for="name">Name:</label>
@@ -32,6 +32,13 @@
         </div>
     </form>
 </div>
+
+<script>
+    function redirectToHomePage() {
+        window.location.href = "index.html";
+        return false; 
+    }
+</script>
 
 </body>
 </html>
